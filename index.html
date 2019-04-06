@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Landing</title>
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="stylesheet" href="css/normalize.css">
+	 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+	<link rel="stylesheet" href="css/landing.css">
+</head>
+<body>
+
+	<header class="header" id="header" data-scrolled="false">
+		<div class="container">
+			<div class="row row_jc-sp-bn">
+				<a href="#" class="logo">
+					<img src="img/logo/logo.png" alt="logo">
+				</a>
+				<nav class="main-menu">
+					<a href="#about">About us</a>
+					<a href="#services">Services</a>
+					<a href="#news">News</a>
+					<a href="#contacts">Contact us</a>
+				</nav>
+				<button class="button button_mod-burger" id="mobileMenuBtn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div><!-- end row -->
+		</div><!-- end container -->
+	</header>
+
+	<!-- mobile menu -->
+	<nav class="mobile-menu" data-showed="false" id="mobileMenu">
+		<div class="column">
+			<a href="#about" class="menu-link">About us</a>
+			<a href="#services" class="menu-link">Services</a>
+			<a href="#news" class="menu-link">News</a>
+			<a href="#contacts" class="menu-link">Contact us</a>
+		</div>
+	</nav>
+	<!-- end mobile menu -->
+
+	<main class="content">
+		<!-- home -->
+		<div class="home page">
+			<div class="container">
+				<h2 class="overtitle overtitle_home">We can start now</h2>
+				<hr class="line line_mod-1 line_home">
+				<h1 class="home__title">Hire an elite development team in minutes</h1>
+				<button class="button button_mod-1 button_home">Start now</button>
+				<a href="#about" class="mouse">
+					<img src="img/home/mouseMobile.png" alt="mouse">
+				</a>
+			</div><!-- end container -->
+		</div><!-- end page -->
+		<!-- end home -->
+
+		<!-- about -->
+		<div class="about page" id="about">
+			<div class="container">
+				<h1 class="title title_mod-1">About company</h1>
+				<p class="subtitle subtitle_mod-1">Lorem Ipsum</p>
+				<hr class="line line_mod-2">
+				<p class="description description_mod-1 description_mod-not-show"
+					id="aboutDescript" data-descrshowed="false">
+					Lorem Ipsum is simply dummy text of the printing and
+					typesetting industry. Lorem Ipsum has been the industry's
+					standard dummy text ever since the 1500s, when an unknown
+					printer took a galley of type and scrambled it to make a
+					type specimen book. It has survived not only five centuries,
+					but also the leap into electronic typesetting, remaining
+					essentially unchanged. It was popularised in the 1960s with
+					the release of Letraset sheets containing Lorem Ipsum
+					passages, and more recently with desktop publishing software
+					like Aldus PageMaker including versions of Lorem Ipsum.
+					Lorem Ipsum passages, and more recently with desktop
+					publishing software like Aldus PageMaker including versions
+					of Lorem Ipsum.
+				</p>
+				<a href="javascript:setHeightToAboutDescription();" class="more">
+					Load more
+				</a>
+			</div><!-- container -->
+		</div><!-- page -->
+		<!-- end about -->
+
+		<!-- services -->
+		<div class="services page" id="services">
+			<div class="container">
+				<h1 class="title title_mod-2">Our Services</h1>
+				<p class="subtitle subtitle_mod-2">Lorem Ipsum</p>
+				<hr class="line line_mod-1">
+				<div class="column">
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<img src="img/services/icon1.png" alt="icon1">
+							</div>
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+							<div class="service__inner">
+								<img src="img/services/icon2.png" alt="icon2">
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<img src="img/services/icon3.png" alt="icon3">
+							</div>
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+							<div class="service__inner">
+								<img src="img/services/icon4.png" alt="icon4">
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<img src="img/services/icon5.png" alt="icon5">
+							</div>
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+					<div class="service">
+						<div class="row">
+							<div class="service__inner">
+								<h1 class="title title_mod-service">
+									Flexible biling options
+								</h1>
+								<p class="description description_mod-service">
+									Lorem Ipsum is simply dummy text of the printing
+									and typesetting industry. Lorem Ipsum has been
+									the industry's standard dummy text ever since
+									the 1500s, when an unknown printer took a galley
+									of type and scrambled it to make a type
+									specimen book. It has survived not only five
+									centuries, but also the leap into electronic
+									typesetting, remaining essentially unchanged. It
+									was popularised in the 1960s with the release
+									off.Various versions have evolved over the years,
+									sometimes by accident, sometimes on purpose
+									(injected humour and the like).
+								</p>
+							</div>
+							<div class="service__inner">
+								<img src="img/services/icon6.png" alt="icon6">
+							</div>
+						</div><!-- end row -->
+					</div><!-- end service -->
+				</div><!-- end column -->
+			</div><!-- end container -->
+		</div><!-- end page -->
+		<!-- end services -->
+
+		<!-- blogs and news -->
+		<div class="blog-and-news page" id="news">
+			<div class="container">
+				<h1 class="title title_mod-2">Blog & news</h1>
+				<p class="subtitle subtitle_mod-2">Lorem Ipsum</p>
+				<hr class="line line_mod-1">
+				<div class="block-blog-news">
+					<div class="row">
+						<article class="box-blog">
+							<img src="img/blogAndNews/img1.png" alt="img1">
+							<div class="row row_jc-sp-bn row_ai-fe">
+								<h1 class="title title_mod-blog">Featured News</h1>
+								<time class="blog-date" datetime="2016-10-20">
+									October 20, 2016
+								</time>
+							</div>
+							<p class="description description_mod-blog">
+								"Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis
+								nostrud exercitation ullamco laboris nisi ut aliquip
+								ex ea commodo consequat. Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
+								deserunt mollit anim id est laborum."
+							</p>
+						</article><!-- end box blog -->
+						<div class="block-blog-news__inner">
+							<article class="box-blog box-blog_mod-min">
+								<img src="img/blogAndNews/img2.png" alt="img1">
+								<div class="row row_jc-sp-bn row_ai-fe">
+									<h1 class="title title_mod-blog">Featured News</h1>
+									<time class="blog-date" datetime="2016-10-20">
+										October 20, 2016
+									</time>
+								</div>
+								<p class="description description_mod-blog">
+									"Lorem ipsum dolor sit amet, consectetur adipiscing
+									elit, sed do eiusmod tempor incididunt ut labore et
+									dolore magna aliqua. Ut enim ad minim veniam, quis
+									nostrud exercitation ullamco laboris nisi ut aliquip
+									ex ea commodo consequat. Duis aute irure dolor in
+									reprehenderit in voluptate velit esse cillum dolore
+									eu fugiat nulla pariatur. Excepteur sint occaecat
+									cupidatat non proident, sunt in culpa qui officia
+									deserunt mollit anim id est laborum."
+								</p>
+							</article><!-- end box blog -->
+							<button class="button button_mod-see-more">
+								<img src="img/blogAndNews/btnIcon.png" alt="ico">
+							</button>
+						</div><!-- end block blog news inner -->
+					</div><!-- end row -->
+				</div><!-- end block blog news -->
+				<!-- slider block -->
+				<div class="slider-block-news">
+					<div class="slide">
+						<article class="box-blog">
+							<img src="img/blogAndNews/img1.png" alt="img1">
+							<div class="row row_jc-sp-bn row_ai-fe">
+								<h1 class="title title_mod-blog">Featured News</h1>
+								<time class="blog-date" datetime="2016-10-20">
+									October 20, 2016
+								</time>
+							</div>
+							<p class="description description_mod-blog">
+								"Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis
+								nostrud exercitation ullamco laboris nisi ut aliquip
+								ex ea commodo consequat. Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
+								deserunt mollit anim id est laborum."
+							</p>
+						</article>
+					</div>
+					<div class="slide">
+						<article class="box-blog">
+							<img src="img/blogAndNews/img1.png" alt="img1">
+							<div class="row row_jc-sp-bn row_ai-fe">
+								<h1 class="title title_mod-blog">Featured News</h1>
+								<time class="blog-date" datetime="2016-10-20">
+									October 20, 2016
+								</time>
+							</div>
+							<p class="description description_mod-blog">
+								"Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis
+								nostrud exercitation ullamco laboris nisi ut aliquip
+								ex ea commodo consequat. Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
+								deserunt mollit anim id est laborum."
+							</p>
+						</article>
+					</div>
+					<div class="slide">
+						<article class="box-blog">
+							<img src="img/blogAndNews/img1.png" alt="img1">
+							<div class="row row_jc-sp-bn row_ai-fe">
+								<h1 class="title title_mod-blog">Featured News</h1>
+								<time class="blog-date" datetime="2016-10-20">
+									October 20, 2016
+								</time>
+							</div>
+							<p class="description description_mod-blog">
+								"Lorem ipsum dolor sit amet, consectetur adipiscing
+								elit, sed do eiusmod tempor incididunt ut labore et
+								dolore magna aliqua. Ut enim ad minim veniam, quis
+								nostrud exercitation ullamco laboris nisi ut aliquip
+								ex ea commodo consequat. Duis aute irure dolor in
+								reprehenderit in voluptate velit esse cillum dolore
+								eu fugiat nulla pariatur. Excepteur sint occaecat
+								cupidatat non proident, sunt in culpa qui officia
+								deserunt mollit anim id est laborum."
+							</p>
+						</article>
+					</div>
+				</div><!-- end slider block -->
+			</div><!-- end container -->
+		</div><!-- end page -->
+		<!-- end blogs and news -->
+
+		<!-- contacts -->
+		<div class="contacts page" id="contacts">
+			<div class="container">
+				<h1 class="title title_mod-1">Contact us</h1>
+				<p class="subtitle subtitle_mod-1">Lorem Ipsum</p>
+				<hr class="line line_mod-2">
+				<div class="contacts-box">
+					<div class="map" id="map"></div>
+					<form action="#" class="form">
+						<h2>Stay in Touch</h2>
+						<div class="row row_jc-sp-bn">
+							<div class="column">
+								<input type="text" id="userName" name="userName" placeholder="Name">
+								<label for="userName" class="warning">
+									Please enter a valid name.
+								</label>
+							</div>
+							<div class="column">
+								<input type="email" id="userEmail" name="userEmail" placeholder="Email">
+								<label for="userEmail" class="warning">
+									Please enter a valid email.
+								</label>
+							</div>
+						</div>
+						<input type="text" class="subject" name="Subject" placeholder="Choose subject">
+						<textarea class="message" name="message" placeholder="Message"></textarea>
+						<button class="button button_mod-form">Send message</button>
+					</form>
+				</div>
+			</div><!-- container -->
+		</div><!-- end page -->
+		<!-- end contacts -->
+
+	</main>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="column footer-box">
+				<div class="row row_jc-sp-bn row_footer">
+					<a href="#">
+						<img src="img/footer/linkedIn.png" alt="linkedIn">
+					</a>
+					<a href="#">
+						<img src="img/footer/facebook.png" alt="facebook">
+					</a>
+					<a href="#">
+						<img src="img/footer/twitter.png" alt="twitter">
+					</a>
+					<a href="#">
+						<img src="img/footer/googlep.png" alt="google+">
+					</a>
+					<a href="#">
+						<img src="img/footer/github.png" alt="github">
+					</a>
+					<a href="#">
+						<img src="img/footer/youtube.png" alt="youtube">
+					</a>
+				</div>
+				<div class="row row_jc-sp-bn row_ai-c">
+					<a href="#" class="logo logo_footer">
+						<img src="img/logo/logo.png" alt="logo">
+					</a>
+					<div class="copy">
+						<p>Privacy Policy. Terms & Coditions</p>
+						<p>Copyright 2017 GSOLUTION. All right reserved</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider-block-news').slick({
+                infinite: true,
+                autoplay: true,
+                autoplaySpeed: 3000,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                customPaging : function(slider, i) {
+                    var thumb = $(slider.$slides[i]).data();
+                    return '<button class="dot"></button>';
+                },
+                arrows: false
+            });
+        });
+    </script>
+	<script>
+        var map;
+        var marker;
+		var img = "img/contacts/marker.png";
+
+        function initMap() {
+            var coordinates = {lat: 47.212325, lng: 38.933663};
+
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: coordinates,
+                zoom: 17,
+                scrollwheel: false,
+				disableDefaultUI: true
+            });
+
+            marker = new google.maps.Marker({
+                position: coordinates,
+                map: map,
+				icon: img,
+                title: "my first web site with google maps api"
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAO1pWpjyVf56NvS_FwoWB3R3SdWSx1ObI&callback=initMap" async defer></script>
+	<script src="js/langing.js"></script>
+</body>
+</html>
